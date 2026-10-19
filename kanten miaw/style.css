@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.kepala {
+    background-color: #DA291C;
+    color: #FFC72C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.musik{
+    width: 250px;
+    max-width: 100%;
+    margin-top: 15px;
+}
+img {
+    height: 350px;
+    margin-top: 90px;
+}
+
+.hero-text{
+    margin: 0px 100px 0px 0px;
+    padding: 20px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu{
+    background-color: #DA291C;
+     color: #FFC72C;
+     display: flex;
+     justify-content: space-between;
+     height: 100%;
+     font-size: 1.7rem;
+}
+
+.garis{
+    background-color: #FFC72C;
+    width: 10px;
+    height: 150vh;
+}
+
+.kids{
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+.kids > ul > li {
+    margin-top: 30px;
+    margin-right: 80px;
+    list-style: none;
+}
+
+.kids > h4{
+    margin-top: 30px;
+}
+
+.regular{
+    margin-right: 250px;
+    margin-top: 80px;
+}
+
+.regular > ul > li{
+    margin-top: 30px;
+    margin-right: 80px;
+    list-style: none;
+}
+
+.regular > h4{
+    margin-top: 30px;
+}
